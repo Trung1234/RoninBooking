@@ -1,13 +1,14 @@
 -- Create the database
--- DROP DATABASE BookFlights
+-- DROP DATABASE BookFlights1
 -- DROP TABLE Bookings
---CREATE DATABASE BookFlights1;
+--CREATE DATABASE BookFlights;
 --GO
 
-USE BookFlights1
+USE BookFlights
 CREATE TABLE Flights (
     FlightID UNIQUEIDENTIFIER NOT NULL PRIMARY KEY DEFAULT NEWID(),
     FlightNumber VARCHAR(10) NOT NULL,
+	[Status] VARCHAR(100) NOT NULL,
     DepartureAirport VARCHAR(100) NOT NULL,
     ArrivalAirport VARCHAR(100) NOT NULL,
     DepartureTime DATETIME NOT NULL,
@@ -44,7 +45,7 @@ CREATE TABLE Payments (
     PaymentStatus VARCHAR(20) NOT NULL,
 	 CreatedAt DATETIME DEFAULT GETDATE(),
 	 ModifyAt DATETIME DEFAULT GETDATE(),
-	 UpdateId NVARCHAR(200) NOT NULL,
+	 UpdateId NVARCHAR(200) NOT NULL,h??ng ph?m
 	CreateId NVARCHAR(200) NOT NULL
 );
 
