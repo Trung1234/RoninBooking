@@ -1,10 +1,10 @@
 /RoninBooking Source Structure
 
     │── /src
-      │   ├── /domain         # Định nghĩa Entities, Aggregates, Value Objects  
-      │   ├── /application    # Các Use Case, Services  
+      │   ├── /domain         # Define Entities, Aggregates, Value Objects  
+      │   ├── /application    # Define Use Case, Services  
       │   ├── /infrastructure # Database, ORM, API Adapter  
-      │   ├── /interfaces     # Controllers, Routes (Giao tiếp với UI/API)  
+      │   ├── /interfaces     # Controllers, Routes (Communicate with UI/API)  
 
 # ✈️ Flight Booking System
 
