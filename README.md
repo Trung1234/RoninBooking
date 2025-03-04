@@ -97,7 +97,20 @@ The **Flight Booking System** is a web-based platform that allows users to searc
 ##  4. Hashing Password Method 
 
 ### ✅ 4.1 Script : slow but safe
+SCrypt is a more memory-intensive hashing algorithm compared to BCrypt, making it more resistant to brute-force and hardware-accelerated attacks.
 
+BCrypt vs. SCrypt in Java
+
+| Feature         | BCrypt         | SCrypt               |  
+|---------------|-------------|---------------------------|  
+| `Speed`  | Slower than MD5 but optimized  | Slower than BCrypt (more secure)         |  
+| `Security`  | Good, but vulnerable to GPU attacks)   | Better against GPU-based brute force        |  
+| `Memory Use` | Low | High (memory-hard function)|  
+| `Best for` | Web apps, authentication | High-security applications   |  
+
+
+		
+If you need stronger security (e.g., protection against ASIC/GPU attacks), SCrypt is a better choice.
 ## 🌐 5. API Endpoints  
 
 ### ✈️ 4=5.1 Flight Search API  
