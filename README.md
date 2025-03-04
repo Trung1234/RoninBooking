@@ -94,9 +94,16 @@ The **Flight Booking System** is a web-based platform that allows users to searc
 
 ---
 
-## 🌐 4. API Endpoints  
+##  4. Hashing Password Method 
 
-### ✈️ 4.1 Flight Search API  
+### ✅ 4.1 Script : slow but safe
+
+## 🌐 5. API Endpoints  
+
+### ✈️ 4=5.1 Flight Search API  
 ```http
 GET /api/flights/search?origin=SGN&destination=HAN&date=2025-03-10
+
+--- 
+
 
