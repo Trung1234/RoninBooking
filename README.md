@@ -113,7 +113,7 @@ BCrypt vs. SCrypt in Java
 If you need stronger security (e.g., protection against ASIC/GPU attacks), SCrypt is a better choice.
 ## 🌐 5. API Endpoints  
 
-### ✈️ 4=5.1 Flight Search API  
+### ✈️ 5.1 Flight Search API  
 ```http
 GET /api/flights/search?origin=SGN&destination=HAN&date=2025-03-10
 
